@@ -1,0 +1,248 @@
+{
+  "tabPane": [
+    {
+      "title": "SmartDashboard",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "SmartDashboard/",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto choices",
+              "_title": "Auto choices"
+            }
+          },
+          "1,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/limelight_PipelineName",
+              "_title": "limelight_PipelineName"
+            }
+          },
+          "2,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/limelight_Stream",
+              "_title": "limelight_Stream"
+            }
+          },
+          "2,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/limelight_Interface",
+              "_title": "limelight_Interface"
+            }
+          },
+          "7,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///limelight/ta",
+              "_title": "/limelight/ta"
+            }
+          },
+          "7,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///limelight/tv",
+              "_title": "/limelight/tv"
+            }
+          },
+          "6,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///limelight/tx",
+              "_title": "/limelight/tx"
+            }
+          },
+          "6,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///limelight/ty",
+              "_title": "/limelight/ty"
+            }
+          },
+          "2,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/D",
+              "_title": "D"
+            }
+          },
+          "8,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Valid Target",
+              "_title": "Valid Target",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "0,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/X",
+              "_title": "X"
+            }
+          },
+          "1,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Y",
+              "_title": "Y"
+            }
+          },
+          "6,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Area",
+              "_title": "Area"
+            }
+          },
+          "7,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/RoboTY",
+              "_title": "RoboTY"
+            }
+          },
+          "8,1": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/ty val",
+              "_title": "ty val",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "3,0": {
+            "size": [
+              3,
+              3
+            ],
+            "content": {
+              "_type": "Camera Stream",
+              "_source0": "camera_server://limelight",
+              "_title": "limelight",
+              "Crosshair/Show crosshair": false,
+              "Crosshair/Crosshair color": "#FFFFFFFF",
+              "Controls/Show controls": false,
+              "Controls/Rotation": "NONE",
+              "compression": -1.0,
+              "fps": -1,
+              "imageWidth": -1,
+              "imageHeight": -1
+            }
+          },
+          "1,2": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/DF",
+              "_title": "DF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "LiveWindow",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "LiveWindow/",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///LiveWindow/Ungrouped/DigitalInput[0]/Value",
+              "_title": "Ungrouped/DigitalInput[0]/Value",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "windowGeometry": {
+    "x": -7.0,
+    "y": 0.0,
+    "width": 1380.0,
+    "height": 536.0
+  }
+}
