@@ -3,7 +3,7 @@
 
 
 # 2021 Code
-FRC Team 4215 competition code for 2021 season. Mostly 2020 code, but with a few changes :)
+This is <em>not</em> the FRC Team 4215 competition code for 2021 season. The 2021 code can be found [here](https://github.com/TrinityTrihawks/2021-CompCode).
 ****
 Competiton Code: [CompCode](https://github.com/TrinityTrihawks/2021/tree/main/CompCode)
 
